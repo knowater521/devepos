@@ -78,12 +78,12 @@ defaults:
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
-lang: zh_CN # Set the site language
+lang: zh-CN # Set the site language
 title: "开发者操作系统" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "开发者操作系统是一个基于Linux内核的开源操作系统，旨在提供一个更友好、更高效的开发学习环境" # Site description and default description, also used in jekyll-seo-tag
 url: "https://soragui.com/devepos" # Site url, also used in jekyll-seo-tag
-baseurl: ""
+baseurl: "/devepos"
 repo: "https://github.com/soragui/devepos"
 email: "ziwo520@gmail.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
@@ -99,7 +99,6 @@ navigation_header:
   Blog: /blog/
   Categories: /categories/
   Search: /search/
-  Fork Alembic: https://github.com/daviddarnes/alembic
 
 navigation_footer:
   Created by David Darnes: https://darn.es
